@@ -1,6 +1,9 @@
 def swap(n1,n2):
   # n1,n2=n2,n1
-  return n2,n1
+  temp =n1
+  n1=n2
+  n2=temp
+  return n1,n2
 
 n1=int(input("Enter the number of n1 :: "))
 n2=int(input("Enter the number of n2 :: "))
